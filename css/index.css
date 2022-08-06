@@ -1,0 +1,40 @@
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    justify-content: center;
+    
+}
+img{
+    width: 250px;
+    height: 120px;
+    border-radius: 10px;
+    box-shadow: 0 20px 20px 0 chocolate ;
+}
+h1{
+    text-align: center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: chocolate;
+}
+body{
+    background-color: antiquewhite;
+}
+@media screen and (max-width:425px) {
+    .flex{
+        justify-content: center;
+    }
+    
+    
+       
+}
+    
+@media screen and (max-width:320px) {
+    .flex{
+    justify-content: center;
+    }
+    img{
+        width: 180px;
+    }
+    
+       
+}
